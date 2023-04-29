@@ -206,7 +206,7 @@
 .works-line .line1 {
   width: 100vw;
   height: 0;
-  border: 0.1px solid #212121;
+  border: 1px solid #565353;
 }
 
 .works-container {
