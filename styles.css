@@ -322,7 +322,6 @@
   transform: translateY(2px);
 }
 
-
 .first {
   background: url(icons/Img-placeholder1.svg);
   background-repeat: no-repeat;
@@ -406,7 +405,6 @@
   background-color: #ebc49d;
   transform: translateY(2px);
 }
-
 
 .second {
   background: url(icons/Img-placeholder1.svg);
@@ -492,7 +490,6 @@
   transform: translateY(2px);
 }
 
-
 .third {
   background: url(icons/Img-placeholder1.svg);
   background-repeat: no-repeat;
@@ -576,7 +573,6 @@
   background-color: #ebc49d;
   transform: translateY(2px);
 }
-
 
 .fourth {
   background: url(icons/Img-placeholder1.svg);
@@ -662,7 +658,6 @@
   transform: translateY(2px);
 }
 
-
 .fifth {
   background: url(icons/Img-placeholder1.svg);
   background-repeat: no-repeat;
@@ -746,7 +741,6 @@
   background-color: #ebc49d;
   transform: translateY(2px);
 }
-
 
 .sixth {
   background: url(icons/Img-placeholder1.svg);
@@ -951,7 +945,7 @@
   list-style-type: none;
 }
 
-.interest ul.languages > li:before {
+.interest ul.languages > li::before {
   content: '';
   display: inline-block;
   width: 16px;
@@ -961,7 +955,7 @@
   margin-right: 10px;
 }
 
-.interest ul.frameworks > li:before {
+.interest ul.frameworks > li::before {
   content: '';
   display: inline-block;
   width: 16px;
@@ -970,7 +964,7 @@
   margin-right: 10px;
 }
 
-.interest ul.skills > li:before {
+.interest ul.skills > li::before {
   content: '';
   display: inline-block;
   width: 16px;
